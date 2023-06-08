@@ -1,0 +1,79 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #ffff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  text-align: left;
+
+}
+.page{
+  display: flex; 
+  flex-direction: row;
+
+}
+h1 {
+  font-size: 40;
+}
+.profile-description{
+  font-size: 22px;
+}
+.logos{
+  width:25px; 
+  height: 25px ;
+  float: left;
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+  padding: 0 5px 0 0;
+  
+
+}
+
+header{
+  background-color: rgb(233, 72, 99);
+  color: #fff;
+  display: flex; 
+  align-items: center;
+}
+
+
+
+
+.title{
+  color:#fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  
+}
+
+.image-profile{
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  margin: 10px 30px ;
+}
+
+
+
+.titulos_puestos{
+  weight: bold;
+  color: #fff; 
+  font-size: 15px;
+
+}
+
+aside{
+  background-color: coral;
+  padding: 10px;
+}
+main{
+  padding: 10px;
+  background-color: lightcoral; 
+}
+
+/* .header_resto{
+
+  border: 1px solid black;
+}  eje para checar donde estan los boxes*/ 
